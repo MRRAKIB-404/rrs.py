@@ -309,7 +309,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ UZAIR ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ RAKIB ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -389,7 +389,7 @@ def follow(ses,coki):
 
 logo = ("""\033[1;32m
        
- ____  ____  ____  ____ 
+ ____  ____  ____  
 /  __\/  __\/ ___\/  __\
 |  \/||  \/||    \| | //
 |    /|    /\___ || |_\\
@@ -420,8 +420,8 @@ class Main:
 		print(" [4] 2009-10 Cloning")
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
-		UZAIR =input(" Choose : ")
-		if UZAIR in ["1", "01"]:
+		 =input(" Choose : ")
+		if RAKIB in ["1", "01"]:
 			File()
 		if RAKIB in ["2", "02"]:
 			Public()
